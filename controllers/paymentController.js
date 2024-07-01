@@ -39,7 +39,7 @@ export const paymentVarification = async(req,res)=>{
     });
 
     res.redirect(
-      `http://localhost:3000/paymentsuccess?reference=${razorpay_payment_id}`
+      `https://razorp-tikam.onrender.com/paymentsuccess?reference=${razorpay_payment_id}`
     );
   } else{
 
